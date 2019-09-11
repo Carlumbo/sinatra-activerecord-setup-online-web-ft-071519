@@ -13,6 +13,3 @@ configure :development do
 #rake gives us the abiltiy to quickly make files and set auto tasks 
 require './app'
 
-require './config/environment' 
-requrie 'sinatra/activerecord/rake'
-
