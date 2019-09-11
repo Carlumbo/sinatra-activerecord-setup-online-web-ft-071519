@@ -11,4 +11,8 @@ configure :development do
   #rake will help create the files and/or folders 
 
 #rake gives us the abiltiy to quickly make files and set auto tasks 
-require './app
+require './app'
+
+require './config/environment' 
+requrie 'sinatra/activerecord/rake'
+
